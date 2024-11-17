@@ -1,0 +1,96 @@
+.content {
+    width: 100%;
+    background-color: white;
+
+    .content-item {
+        padding: 0 20px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid lightgray;
+
+        p {
+            margin: 0;
+        }
+
+        .id {
+            width: 5%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .totalAppli {
+            width: 15%;
+        }
+
+        .status {
+            width: 10%;
+
+            p {
+                background-color: red;
+                color: white;
+                display: inline;
+                padding: 5px;
+                border-radius: 10px;
+            }
+            .adopted {
+                background-color: var(--adopted-color);
+            }
+
+            .available {
+                background-color: var(--available-color);
+            }
+        }
+
+        .petName {
+            width: 15%;
+        }
+
+        .action {
+            text-align: center;
+            width: 5%;
+            .view-icon {
+                color: rgb(99, 199, 232);
+                width: 18px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .show-all-appli {
+        background-color: #f8f8f8;
+        width: 100%;
+        padding: 15px;
+        border-bottom: 1px solid lightgray;
+
+        .show-all-appli-content {
+            background-color: white;
+            padding: 10px;
+            padding-bottom: 0;
+            border-radius: 10px;
+
+            .show-all-appli-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .appli-rating {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid lightgray;
+                padding: 20px 0;
+
+                &:last-child {
+                    border: none;
+                }
+
+                .denied-btn {
+                    background-color: red;
+                }
+            }
+        }
+    }
+}

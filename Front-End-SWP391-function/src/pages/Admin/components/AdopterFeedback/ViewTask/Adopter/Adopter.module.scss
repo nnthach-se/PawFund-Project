@@ -1,0 +1,20 @@
+.wrapper {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 15px;
+
+    .title {
+        text-align: center;
+        padding: 5px 15px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: var(--primary-color);
+        width: 150px;
+    }
+
+    .adopter-info{
+        width: 100%;
+        padding: 0 20px;
+    }
+}

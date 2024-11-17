@@ -1,0 +1,80 @@
+.wrapper {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 15px;
+
+    .title {
+        text-align: center;
+        padding: 5px 15px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: var(--primary-color);
+        width: 150px;
+    }
+
+    .container {
+        display: flex;
+        padding: 0 10px;
+        justify-content: space-between;
+        margin-bottom: 16px;
+
+        .issue-box {
+            width: 32%;
+            background-color: red;
+            border-radius: 20px;
+            text-align: center;
+            padding: 15px;
+
+            .issue-box-state {
+                text-align: center;
+                background-color: white;
+                display: inline-block;
+                margin-bottom: 10px;
+                margin-top: 0;
+                padding: 3px 5px;
+                border-radius: 10px;
+            }
+
+            .issue-box-info {
+                background-color: white;
+                display: inline-block;
+                text-align: left;
+                padding: 5px 10px;
+                border-radius: 10px;
+
+                p {
+                    font-size: 14px;
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+
+            .more {
+                margin-top: 10px;
+                margin-right: 2px;
+                text-align: right;
+
+                p {
+                    margin: 0;
+                    font-size: 14px;
+                    cursor: pointer;
+                    color: white;
+                }
+            }
+        }
+
+        .notstart {
+            background-color: var(--adopted-color);
+        }
+
+        .inprocess {
+            background-color: var(--inprocess-color);
+        }
+
+        .done {
+            background-color: green;
+        }
+    }
+}

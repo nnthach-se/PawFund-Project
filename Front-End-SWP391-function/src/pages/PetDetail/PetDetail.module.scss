@@ -1,0 +1,141 @@
+.wrapper {
+    // min-height: 600px;
+    background: linear-gradient(180deg, #7aa366 300px, white 5%, white 53%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+    h1 {
+        top: 40px;
+        left: 11%;
+        color: white;
+        position: absolute;
+    }
+
+    .petDetail_h2_wrap {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // background-color: #7aa366;
+        // height: 50px;
+        // width: 100px;
+        // border-radius: 20px;
+        // margin-bottom: 20px;
+        h2 {
+            display: inline-block;
+            color: white;
+            margin: 0;
+            padding:0 8px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            background-color: var(--primary-color);
+        }
+    }
+
+    .back {
+        cursor: pointer;
+        color: white;
+        position: absolute;
+        left: 11%;
+        top: 21%;
+        margin: 0;
+        opacity: 0.7;
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .content {
+        width: 1200px;
+        display: flex;
+        border-radius: 20px;
+        align-items: stretch;
+        margin-top: 100px;
+
+        .pet-info {
+            background-color: var(--third-color);
+            width: 60%;
+            padding: 10px 20px;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .detail-info {
+                position: relative;
+                width: 50%;
+                .detail-item {
+                    display: flex;
+
+                    div {
+                        margin-right: 25px;
+                        p {
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+
+                .adopt {
+                    display: flex;
+                    margin-top: 10px;
+                }
+
+                .edit {
+                    margin-top: 20px;
+                    display: flex;
+
+                    Button:first-child {
+                        margin-right: 10px;
+                    }
+                }
+
+                &::after {
+                    content: '';
+                    background-color: rgb(199, 199, 199);
+                    width: 1px;
+                    height: 85%;
+                    position: absolute;
+                    right: 30px;
+                    top: 13%;
+                }
+            }
+
+            .story {
+                width: 50%;
+                .description-wrapper {
+                    height: 280px;
+                    overflow-y: auto;
+
+                    &::-webkit-scrollbar {
+                        width: 6px;
+                    }
+
+                    &::-webkit-scrollbar-thumb {
+                        background-color: transparent; // set màu scroll
+                        border-radius: 6px;
+                    }
+
+                    &::-webkit-scrollbar-track {
+                        background-color: transparent; // set màu cái background của scroll
+                        border-radius: 6px;
+                    }
+                    &::-webkit-scrollbar-thumb:horizontal {
+                        min-width: 20px;
+                    }
+
+                    &:hover::-webkit-scrollbar-thumb {
+                        background-color: rgba(22, 24, 35, 0.1);
+                    }
+
+                    .description {
+                        text-align: justify;
+                        margin-bottom: 0;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

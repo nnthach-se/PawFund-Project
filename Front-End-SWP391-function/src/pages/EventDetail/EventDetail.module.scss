@@ -1,0 +1,174 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    .content {
+        width: 800px;
+        padding: 40px 0;
+        text-align: center;
+
+        .content-img{
+            display: flex;
+            width: 100%;
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            background-color: transparent;
+            img {
+                max-width: 100%;
+                max-height: 100%;
+                width: auto;
+                height: auto;
+            }
+        }
+
+        .main-content {
+            width: 600px;
+            margin: 0 auto;
+            text-align: left;
+            margin-top: 20px;
+
+            p {
+                text-align: justify;
+                color: #6f6f6f;
+                margin: 10px 0;
+            }
+
+            .main-content-img {
+                width: 100%;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                background-color: rgb(229, 229, 229);
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    width: auto;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .other-blog{
+        text-align: center;
+        margin-bottom: 40px;
+        border-top: 1px solid rgb(191, 191, 191);
+        padding-top: 20px;
+        position: relative;
+        h2{
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+
+        .event-container {
+            width: 820px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.5s ease;
+
+            .event-box {
+                background-color: var(--background-color-grey);
+                width: 250px;
+                height: 390px;
+                padding: 15px;
+                display: flex;
+                flex-direction: column;
+                transition: opacity 0.5s ease;
+
+                .image {
+                    background-color: lightgray;
+                    height: 200px;
+                    position: relative;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+
+                    .date {
+                        position: absolute;
+                        bottom: -17px;
+                        background-image: linear-gradient(var(--primary-color) 50%, rgb(98, 134, 79) 50%);
+                        color: white;
+                        width: 30px;
+                        text-align: center;
+                        height: 35px;
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+                }
+
+                .event-info {
+                    margin-top: 20px;
+                    text-align: left;
+
+                    h3,
+                    p {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                    }
+
+                    h3 {
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 5px;
+                    }
+                    p {
+                        font-size: 14px;
+                        margin: 0;
+                    }
+                }
+
+                .event-btn {
+                    margin-top: auto;
+                }
+            }
+        }
+
+        .pre-btn,
+        .next-btn {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border: none;
+            border-radius: 50%;
+            font-size: 20px;
+            font-weight: 600;
+            opacity: 0.5;
+            color: rgb(0, 0, 0);
+
+            &:hover {
+                opacity: 1;
+                color: black;
+            }
+        }
+
+        .pre-btn{
+            left: -10%;
+            top: 50%;
+        }
+
+        .next-btn{
+            right: -10%;
+            top: 50%;
+        }
+
+        .blog-btn{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

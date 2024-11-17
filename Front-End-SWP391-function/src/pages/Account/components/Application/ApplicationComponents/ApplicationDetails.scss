@@ -1,0 +1,141 @@
+.applicationDetail {
+    width: 100%;
+    // height: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.applicationDetail_box_img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.applicationDetail_box_wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.applicationDetail_box {
+    width: 800px;
+    // height: 700px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #eff8eb;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.applicationDetail_box_h3_wrap_wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.applicationDetail_box_h3_wrap {
+    height: 100px;
+    width: 340px;
+    display: flex;
+    // background-color: white;
+    background-color: #6a945b;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    // border-radius: 15px;
+    // border-bottom: 3px solid #88b179;
+    color: #88b179;
+    h3 {
+        color: white;
+        margin: 0px;
+        text-align: center;
+        // font-weight: 900;
+        font-size: 30px;
+    }
+}
+
+.applicationDetail_box_content {
+    p {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .applicationDetail_box_content_name_phone {
+        display: flex;
+        column-gap: 150px;
+    }
+    .applicationDetail_box_content_yob_gender {
+        display: flex;
+        column-gap: 185px;
+    }
+}
+
+.applicationDetail_box_btn_wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.applicationDetail_box_btn {
+    Button {
+        width: 200px;
+        height: 70px;
+        border-radius: 15px;
+        background-color: #6a945b;
+        color: white;
+        font-size: 30px;
+        transition: transform 0.3s ease;
+    }
+
+    Button:hover {
+        transform: scale(1.1);
+    }
+}
+
+.applicationDetail_box_content_petDetail {
+    // position: absolute;
+    // top: 200px;
+    // left: 00px;
+    display: flex;
+    // justify-content: center;
+    gap: 20px;
+    background-color: white;
+    width: 700px;
+    border-radius: 10px;
+    padding: 20px;
+    p {
+        font-size: 21px;
+    }
+    img {
+        height: 200px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    // strong {
+    //     color: #6a945b;
+    // }
+}
+
+.applicationDetail_box_content_petDetail_devideCol {
+    display: flex;
+    gap: 0px;
+    margin-left: 30px;
+}
+
+.applicationDetail_box_content_petDetail_4left {
+    width: 210px;
+}
+
+.applicationDetail_box_content_petDetail_3right {
+    width: 250px;
+}
+
+.applicationDetail_box_content_petDetail_wrap {
+    margin-top: 20px;
+    h2 {
+        font-weight: 700;
+        text-align: center;
+    }
+}

@@ -1,0 +1,43 @@
+.comment {
+    border-top: 1px solid lightgray;
+    padding-top: 15px;
+
+    .heading {
+        font-size: 18px;
+        padding: 0 5px;
+        background-color: var(--primary-color);
+        display: inline-block;
+        border-radius: 10px;
+    }
+    .comment-content {
+        .comment-item {
+            .comment-detail {
+                font-size: 10px;
+                font-weight: 400;
+                color: grey;
+                margin: 0;
+            }
+        }
+
+        .add-comment {
+            form {
+                display: flex;
+
+                input {
+                    height: 30px;
+                    width: 280px;
+                    padding: 0 8px;
+                    padding-right: 30px;
+                    border-radius: 10px;
+                    font-size: 14px;
+                }
+
+                .create-btn {
+                    padding: 3px 5px;
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

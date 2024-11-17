@@ -1,0 +1,105 @@
+.AdoptStep1 {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+}
+
+// phần content
+.content-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.AdoptStep1-container-content {
+    height: 420px;
+    width: 60%;
+    background-color: #eff8eb;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.AdoptStep1-container-content-image {
+    border-radius: 10px;
+}
+.AdoptStep1-container-content-image-wrap {
+    div {
+        display: flex;
+        position: relative;
+        border-radius: 10px;
+        img {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            height: 40px;
+            width: 40px;
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: 20px;
+            font-weight: 500;
+            padding-top: 25px;
+            padding-left: 120px;
+        }
+    }
+    img {
+        width: 350px;
+        height: 250px;
+        margin: 30px 0px 0px 55px;
+    }
+}
+
+.AdoptStep1-container-content-wrap {
+    display: flex;
+}
+
+.AdoptStep1-container-content-info {
+    padding: 30px 0px 0px 80px;
+    h3 {
+        font-size: 40px;
+    }
+}
+
+.AdoptStep1-container-content-textContainer {
+    display: flex;
+    img {
+        height: 25px;
+    }
+    p {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+}
+
+.AdoptStep1-button {
+    display: flex;
+    justify-content: right;
+    padding-right: 40px;
+    column-gap: 10px;
+}
+
+// 2 cái nút next và cancel
+.btn-1 {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #7aa366;
+    border: 3px solid #5b794c;
+    border-radius: 10px;
+}
+
+.btn-1:hover {
+    background-color: #8fca72;
+}
+
+.btn-2 {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #db6060;
+    border: 3px solid #b94242;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-2:hover {
+    background-color: #e14343;
+}

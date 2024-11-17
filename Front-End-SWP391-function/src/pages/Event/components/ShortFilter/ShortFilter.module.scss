@@ -1,0 +1,39 @@
+.short-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .sort{
+        select{
+            height: 30px;
+            border-radius: 8px;
+            margin-left: 10px;
+            width: 100px;
+        }
+    }
+
+    .type{
+        select{
+            height: 30px;
+            border-radius: 8px;
+            margin-left: 10px;
+            width: 100px;
+        }
+    }
+
+    .search-name {
+        display: flex;
+        align-items: center;
+
+        input {
+            height: 30px;
+            outline: none;
+            margin: 0 10px;
+            padding: 0 5px;
+            padding-right: 25px;
+            border-radius: 8px;
+            font-size: 14px;
+            border: 1px solid rgb(0, 0, 0);
+        }
+    }
+}

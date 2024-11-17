@@ -1,0 +1,136 @@
+.pet-list {
+    margin-top: 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: calc(3 * 250px + 2 * 20px);
+    margin-left: 40px;
+
+    .pet-box {
+        border-radius: 15px;
+        background-color: white;
+        padding: 15px;
+        margin: 0;
+        box-sizing: border-box;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+
+        .image {
+            border-radius: 15px;
+            background-color: lightgray;
+            height: 200px;
+            position: relative;
+
+            img {
+                border-radius: 15px;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .heart-icon {
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                bottom: 4px;
+                left: 4px;
+            }
+
+            .pet-state {
+                position: absolute;
+                margin: 0;
+                bottom: 4px;
+                right: 4px;
+                color: white;
+                font-size: 12px;
+                font-weight: 600;
+                padding: 3px;
+                border-radius: 8px;
+            }
+
+            .available-state {
+                background-color: green;
+            }
+
+            .unavailable-state {
+                background-color: #90928f;
+            }
+        }
+
+        .pet-info {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .info {
+                display: flex;
+                justify-content: space-between;
+
+                .main-info {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    h3 {
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 5px;
+                    }
+
+                    p {
+                        margin: 0;
+                        font-size: 14px;
+                    }
+
+                    .attr-icon {
+                        margin-top: 5px;
+                        img {
+                            width: 20px;
+                            &:nth-child(2) {
+                                margin: 0 5px;
+                            }
+                        }
+                    }
+                }
+
+                .old {
+                    font-weight: 500;
+                    font-size: 14px;
+                }
+            }
+
+            .pet-btn {
+                margin-top: 20px;
+                display: flex;
+                // .btn {
+                //     background-color: var(--primary-color);
+                //     width: 50px;
+                //     color: white;
+                // }
+
+                .available-state {
+                    background-color: green;
+                }
+
+                .unavailable-state {
+                    background-color: #90928f;
+                }
+            }
+        }
+    }
+
+    .pet-box:hover {
+        transform: scale(1.05);
+    }
+
+    .pagination {
+        display: block;
+        width: 100%;
+    }
+}

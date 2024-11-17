@@ -1,0 +1,102 @@
+.myPetDetail {
+    width: 100%;
+    height: 630px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    // padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.myPetDetail_box_wrap {
+    width: 100%;
+    height: 290px;
+    background-color: #7aa366;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.myPetDetail_box {
+    width: 60%;
+    height: 500px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+}
+
+.myPetDetail_box_left {
+    width: 40%;
+    .myPetDetail_box_left_imgPet {
+        height: 300px;
+        width: 300px;
+        border-radius: 200px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .myPetDetail_box_left_vaccine {
+        display: flex;
+        margin-left: 85px;
+        margin-top: 20px;
+        .myPetDetail_box_left_imgVac {
+            height: 40px;
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        p {
+            font-size: 22px;
+            margin: 0;
+            align-content: center;
+        }
+    }
+}
+
+.myPetDetail_box_right {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 20px;
+    .myPetDetail_box_right_4_left_container {
+        display: flex;
+        margin-bottom: 30px;
+        margin-right: 70px;
+        p {
+            font-size: 22px;
+            margin: 0;
+            align-content: center;
+        }
+        img {
+            margin-right: 10px;
+            width: 30px;
+        }
+    }
+
+    .myPetDetail_box_right_4_right_container {
+        display: flex;
+        margin-bottom: 30px;
+        p {
+            font-size: 22px;
+            margin: 0;
+            align-content: center;
+        }
+        img {
+            margin-right: 10px;
+            width: 30px;
+        }
+    }
+
+    .myPetDetail_box_description_container {
+        position: absolute;
+        left: 695px;
+        top: 490px;
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .description_myPet {
+        color: #43b10c;
+        font-size: 25px;
+    }
+}

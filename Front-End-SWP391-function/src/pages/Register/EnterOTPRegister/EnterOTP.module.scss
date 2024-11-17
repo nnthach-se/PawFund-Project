@@ -1,0 +1,44 @@
+.form-otp{
+    width: 200px;
+
+    p{
+        color: var(--primary-color);
+    }
+
+    .form-item{
+
+        .input {
+            border-color: var(--primary-color); 
+
+            &:focus {
+                box-shadow: 0 0 3px var(--primary-color); 
+            }
+
+            &::placeholder{
+                color: rgb(18, 89, 0);
+            }
+        }
+    }
+
+    .send-again{
+        margin-top: -20px;
+        font-size: 12px;
+        color: black;
+        cursor: pointer;
+    }
+    .regis-msg{
+        color: var(--primary-color);
+        font-style: italic;
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .red-text{
+        color: red;
+    }
+
+    .wrap-btn{
+        display: flex;
+        margin-bottom: 20px;
+    }
+}

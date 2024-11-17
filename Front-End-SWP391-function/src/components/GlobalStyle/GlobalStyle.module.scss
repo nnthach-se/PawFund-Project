@@ -1,0 +1,37 @@
+@import 'normalize.css';
+
+/* The following line can be included in a src/App.scss */
+
+:root {
+    --primary-color: #7aa366;
+    --second-color: #bad29a;
+    --third-color: #eff8eb;
+    --background-color-grey: #f9f8f8;
+    --background-color-grey-second: #f7f7f7;
+    --background-hover-outline: #f4fbf3;
+    --background-hover-primary: #61854f;
+    --background-color-admin: #f5f6fa;
+    --disable-btn: rgb(196, 196, 196);
+    --available-color: green;
+    --adopted-color: #90928f;
+    --pass-color: green;
+    --notpass-color: rgb(226, 6, 6);
+    --inprocess-color: rgb(228, 228, 61);
+    --approved-color: rgba(2, 92, 2, 0.792);
+    --denied-color: rgb(170, 2, 2);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

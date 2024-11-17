@@ -1,0 +1,293 @@
+.volunteerAppli {
+    background-color: white;
+}
+
+.volunteerAppli_infoInput_header_wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+}
+
+.volunteerAppli_infoInput_header {
+    height: 70px;
+    width: 700px;
+    display: flex;
+    // background-color: white;
+    align-items: center;
+    justify-content: center;
+    // border-radius: 15px;
+    border-bottom: 3px solid #88b179;
+    color: #88b179;
+    h3 {
+        margin: 0px;
+        font-weight: 900;
+        font-size: 50px;
+    }
+}
+
+.volunteer_input_bar:focus {
+    border-color: #6a945b;
+    border-width: 3px;
+}
+
+input {
+    border: 2px solid #88b179;
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+    outline: none;
+}
+select {
+    border: 2px solid #88b179;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.volunteerAppli_infoInput {
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 910px;
+    form {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+}
+
+.infoInput_wrap {
+    display: flex;
+    justify-content: center;
+}
+
+// khung to 1
+.fullName_yob_gender_phone_address_wrap {
+    background-color: #c5e7b6;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.fullName_yob_wrap {
+    display: flex;
+    column-gap: 30px;
+}
+
+.gender_phone_wrap {
+    display: flex;
+    column-gap: 30px;
+}
+
+.volunteer_name {
+    display: flex;
+}
+
+// name
+.volunteer_name {
+    display: flex;
+    column-gap: 9px;
+    padding-bottom: 15px;
+    input {
+        border: 2px solid #88b179;
+        height: 30px;
+        width: 300px;
+        border-radius: 5px;
+        outline: none;
+    }
+    label {
+        width: 80px;
+    }
+}
+
+//yob
+.volunteer_yob {
+    .volunteer_yob_wrap {
+        display: flex;
+        column-gap: 20px;
+        padding-bottom: 15px;
+    }
+    input {
+        border: 2px solid #88b179;
+        height: 30px;
+        width: 279px;
+        border-radius: 5px;
+        outline: none;
+    }
+    label {
+        width: 90px;
+    }
+}
+
+// gender
+.volunteer_gender {
+    display: flex;
+    column-gap: 38px;
+    padding-bottom: 15px;
+    select {
+        border: 2px solid #88b179;
+        height: 30px;
+        width: 301px;
+        border-radius: 5px;
+        outline: none;
+    }
+}
+
+//phone
+.volunteer_phone {
+    input {
+        border: 2px solid #88b179;
+        height: 30px;
+        width: 278px;
+        border-radius: 5px;
+        outline: none;
+    }
+}
+
+.volunteer_phone_wrap {
+    display: flex;
+    column-gap: 65px;
+    padding-bottom: 15px;
+}
+
+// address
+.volunteer_address {
+    display: flex;
+    column-gap: 30px;
+    // padding-bottom: 15px;
+    input {
+        border: 2px solid #88b179;
+        height: 80px;
+        width: 800px;
+        padding-bottom: 50px;
+        border-radius: 5px;
+        outline: none;
+    }
+}
+
+// khung to 2
+.adoptionExp_morning_daysOfWeek_afternoon_reason_wrap {
+    background-color: #c5e7b6;
+    // margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.adoptionExp_morning_wrap {
+    display: flex;
+    column-gap: 30px;
+}
+
+// adopt Exp
+.volunteer_adoptExp {
+    display: flex;
+    column-gap: 9px;
+    padding-bottom: 15px;
+    input {
+        border: 2px solid #88b179;
+        height: 30px;
+        width: 300px;
+        border-radius: 5px;
+        outline: none;
+    }
+    label {
+        width: 80px;
+    }
+}
+
+// morning
+.volunteer_morning {
+    display: flex;
+    column-gap: 9px;
+    padding-bottom: 15px;
+    input {
+        border: 2px solid #88b179;
+        height: 30px;
+        width: 300px;
+        border-radius: 5px;
+        outline: none;
+    }
+    label {
+        width: 80px;
+    }
+}
+
+// days of week
+.volunteer_daysOfWeek {
+    display: flex;
+    column-gap: 9px;
+    padding-bottom: 15px;
+    input {
+        border: 2px solid #88b179;
+        height: 30px;
+        width: 300px;
+        border-radius: 5px;
+        outline: none;
+    }
+    label {
+        width: 80px;
+    }
+}
+
+// afternoon
+.volunteer_afternoon {
+    display: flex;
+    column-gap: 9px;
+    padding-bottom: 15px;
+    input {
+        border: 2px solid #88b179;
+        height: 30px;
+        width: 300px;
+        border-radius: 5px;
+        outline: none;
+    }
+    label {
+        width: 80px;
+    }
+}
+
+// reason
+.volunteer_reason {
+    display: flex;
+    // padding-bottom: 15px;
+    input {
+        border: 2px solid #88b179;
+        height: 80px;
+        width: 800px;
+        padding-bottom: 50px;
+        border-radius: 5px;
+        outline: none;
+    }
+    label {
+        width: 100px;
+    }
+}
+
+.daysOfWeek_afternoon_wrap {
+    display: flex;
+    column-gap: 30px;
+}
+
+.volunteer_button {
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    column-gap: 10px;
+}
+
+.error-text-3 {
+    margin-top: 0px;
+    margin-left: 110px;
+    margin-bottom: 0px;
+    color: red;
+    font-style: italic;
+    font-weight: 350;
+}

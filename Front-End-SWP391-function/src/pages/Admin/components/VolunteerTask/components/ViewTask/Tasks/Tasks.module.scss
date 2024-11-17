@@ -1,0 +1,281 @@
+.task-info {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+
+    .task-title {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        position: relative;
+
+        p {
+            margin: 0;
+            font-weight: bold;
+            padding: 5px 15px;
+            background-color: var(--second-color);
+
+            &:first-child {
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                background-color: var(--primary-color);
+                width: 150px;
+            }
+            &:last-child {
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+            }
+        }
+    }
+    .task-name {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0 20px;
+
+        h5 {
+            margin: 20px auto;
+            text-align: center;
+            background-color: rgb(243, 243, 243);
+            width: 400px;
+            border-radius: 15px;
+            padding: 5px;
+        }
+
+        .task-status {
+            margin: 22px 0;
+            background-color: red;
+            color: white;
+            padding: 5px;
+            border-radius: 15px;
+            font-weight: bold;
+        }
+
+        .status-notstart {
+            background-color: rgb(176, 176, 176);
+        }
+        .status-inprocess {
+            background-color: var(--inprocess-color);
+        }
+        .status-done {
+            background-color: green;
+        }
+    }
+
+    .task-content {
+        width: 100%;
+        padding: 0 20px;
+        padding-bottom: 20px;
+
+        .task-checklist-wrap {
+            .task-right-info {
+                width: 100%;
+                background-color: rgb(243, 243, 243);
+                border-radius: 15px;
+                padding: 10px;
+
+                form {
+                    textarea {
+                        width: 100%;
+                        height: 130px;
+                        border-radius: 15px;
+                        padding: 10px 5px;
+                        overflow-y: auto;
+                        border: 1px solid black;
+                        outline: none;
+                    }
+
+                    .save-des-btn {
+                        margin-top: 0px;
+                    }
+                }
+            }
+
+            .checklist {
+                width: 48%;
+                height: 312px;
+                background-color: rgb(243, 243, 243);
+                border-radius: 15px;
+                padding: 10px;
+
+                .checklist-heading {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    p {
+                        &:last-child {
+                            width: 212px;
+                            overflow: hidden;
+                            text-align: right;
+                        }
+                    }
+                }
+
+                .checklist-range {
+                    .checklist-range-heading {
+                        font-weight: 600;
+                        .icon-checked {
+                            margin-right: 10px;
+                        }
+                    }
+
+                    .range-slide {
+                        background-color: grey;
+                        height: 10px;
+                        border-radius: 10px;
+                        margin-bottom: 15px;
+                        margin-top: 5px;
+                        position: relative;
+                        overflow: hidden;
+
+                        .range-fill {
+                            position: absolute;
+                            content: '';
+                            background-color: var(--primary-color);
+                            height: 10px;
+                            transition: width 0.3s ease;
+                        }
+                    }
+                }
+
+                form {
+                    .checklist-item {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 10px;
+
+                        input {
+                            display: none;
+
+                            &:checked + label {
+                                text-decoration: line-through;
+                                color: grey;
+
+                                &::before {
+                                    content: '✓';
+                                    color: black;
+                                    background-color: white;
+                                    width: 15px;
+                                    height: 15px;
+                                    border: 1px solid black;
+                                    border-radius: 5px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    line-height: 14px;
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+
+                        label {
+                            position: relative;
+                            padding-left: 25px;
+                            cursor: pointer;
+
+                            &::before {
+                                content: '';
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 15px;
+                                height: 15px;
+                                border: 1px solid black;
+                                border-radius: 5px;
+                                background-color: white;
+                                position: absolute;
+                                left: 0;
+                                top: 50%;
+                                transform: translateY(-50%);
+                            }
+                        }
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .save-checklist-btn {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+
+        .adopter-info {
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 20px;
+            background-color: rgb(243, 243, 243);
+            border-radius: 15px;
+            padding: 10px;
+
+            p {
+                margin-bottom: 0;
+            }
+
+            .adopter-detail-wrap {
+                .adopter-detail-info-top {
+                    display: flex;
+
+                    .adopter-detail-info-top-right,
+                    .adopter-detail-info-top-left {
+                        display: flex;
+                        flex-direction: column;
+                        width: 50%;
+
+                        span {
+                            background-color: white;
+                            width: 250px;
+                            margin-bottom: 10px;
+                            padding: 5px 10px;
+                            border-radius: 15px;
+                            box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px;
+
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+
+                    .adopter-detail-info-top-right {
+                        margin-left: 20px;
+                        span {
+                            width: 150px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .last-step-btn {
+            display: flex;
+            Button {
+                &:last-child {
+                    background-color: red;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .delete-task {
+        text-align: right;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        color: red;
+
+        span {
+            cursor: pointer;
+
+            .icon-trash {
+                margin-right: 5px;
+            }
+
+            &:hover {
+                color: rgb(201, 0, 0);
+            }
+        }
+    }
+}

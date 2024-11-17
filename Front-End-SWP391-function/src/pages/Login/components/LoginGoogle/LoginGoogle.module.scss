@@ -1,0 +1,55 @@
+.form{
+    width: 300px;
+
+    .ggpw-msg{
+        color: var(--primary-color);
+        text-align: center;
+    }
+
+    .form-item{
+        .input {
+            border-color: var(--primary-color); 
+
+            &:focus {
+                box-shadow: 0 0 3px var(--primary-color); 
+            }
+
+            &::placeholder{
+                color: rgb(18, 89, 0);
+            }
+        }
+        
+    }
+    .mgbt{
+        margin-bottom: 35px;
+    }
+
+    .small-function{
+        margin-top: -30px;
+        font-size: 12px;
+        a{
+            text-decoration: underline;
+            color: var(--primary-color);
+        }
+    }         
+
+    .regis-msg{
+        color: var(--primary-color);
+        font-style: italic;
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .red-text{
+        color: red;
+    }
+    
+    .submit-btn {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+}

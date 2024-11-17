@@ -1,0 +1,57 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: stretch;
+    width: 60%;
+    padding: 20px;
+    margin: 40px 0;
+    margin-top: 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+    background-color: white;
+
+    .container {
+        background-color: var(--third-color);
+        padding: 15px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .container-img{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-right: 1px solid lightgray;
+            padding: 10px;
+            .icon-wrap {
+                width: 100px;
+                height: 100px;
+                background-color: white;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .user-icon {
+                   font-size: 50px;
+                }
+            }
+        }
+
+        .container-info{
+            width: 50%;
+            padding: 10px;
+
+            .deletebtn{
+                background-color: rgb(252, 80, 80);
+                color: white;
+
+                &:hover{
+                    background-color: rgb(194, 37, 37);
+                }
+            }
+        }
+    }
+}

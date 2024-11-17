@@ -1,0 +1,186 @@
+// step 1
+.donation {
+    padding-top: 15px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.step-display {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-right: 19px;
+    column-gap: 10px;
+}
+
+.donation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+}
+
+.donation-options {
+    background-color: #eff8eb;
+    display: flex;
+    width: 710px;
+    height: 550px;
+    border-radius: 4%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.select-amount {
+    margin-top: 20px;
+    text-align: center;
+    h3 {
+        margin: 0;
+    }
+}
+
+.image {
+    height: 100%;
+    width: 280px;
+}
+
+.amount-buttons {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-right: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-button {
+    height: 70px;
+    width: 150px;
+    font-size: 17px;
+    font-weight: 100;
+    transition: 0.3s;
+}
+
+.button-display {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    row-gap: 30px;
+    column-gap: 35px;
+}
+
+.payment-method-buttons {
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 20px;
+}
+
+.amount-buttons Button.selected {
+    background-color: #93d57b;
+    border: 3.5px solid #5c9537;
+    color: #ffff;
+}
+
+.choose-method-button {
+    border: none;
+    background-color: #ffff;
+    height: 60px;
+    width: 130px;
+    border-radius: 10px;
+    transition: 0.08s;
+}
+
+.visa-image {
+    height: 30px;
+    width: 70px;
+}
+
+.qr-image {
+    height: 50px;
+    width: 50px;
+}
+
+button.active {
+    border: 3.5px solid #5c9537;
+}
+
+input[type='number'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #64b65d;
+}
+
+.save-button {
+    background-color: #93d57b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 340px;
+    height: 80px;
+    font-size: 40px;
+    transition: 0.3s;
+    margin-top: 30px;
+}
+
+.save-button:hover {
+    background-color: #5fc92e;
+}
+
+.donate-content {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.input-save {
+    padding-top: 15px;
+    width: 338px; /* Set the desired width in pixels */
+}
+
+.text-wrap {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    color: #ffff;
+    background-color: #353535;
+}
+
+.text-wrap-1 {
+    justify-content: center;
+}
+
+.what-is-included {
+}
+
+.text-wrap-2 {
+    display: flex;
+    column-gap: 40px;
+    padding-top: 50px;
+}
+
+//step 2
+
+.step-2-content {
+    padding: 20px 0px 0px 20px;
+}
+
+.step-2-option-header {
+    text-align: center;
+    background-color: #72ab5e;
+    color: #ffff;
+    border-radius: 10px;
+}
+
+.you-want-to {
+    margin: 0;
+    font-size: 25px;
+}
+
+.header-amount {
+    margin: 0;
+    font-size: 20px;
+}

@@ -1,0 +1,18 @@
+.navbar {
+    .nav-item {
+        text-decoration: none;
+        color: var(--primary-color);
+        padding-bottom: 5px;
+        margin: 20px;
+        font-size: 16px;
+        font-weight: 500;
+
+        &:hover {
+            border-bottom: 1px solid var(--primary-color);
+        }
+
+        &:last-child{
+            cursor: pointer;
+        }
+    }
+}

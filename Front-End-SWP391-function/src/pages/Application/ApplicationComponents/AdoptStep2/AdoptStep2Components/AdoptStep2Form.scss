@@ -1,0 +1,330 @@
+.AdoptStep2 {
+    background-color: white;
+    height: 1200px;
+}
+
+.wrap-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.AdoptStep2-infoInput {
+    height: 1070px;
+    background-color: #eff8eb;
+    padding-left: 30px;
+    form {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+}
+
+.AdoptStep2-h3-wrap {
+    height: 100px;
+    width: 340px;
+    display: flex;
+    background-color: #6a945b;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #88b179;
+    h3 {
+        color: white;
+        margin: 0px;
+        text-align: center;
+        // font-weight: 900;
+        font-size: 30px;
+    }
+}
+
+.AdoptStep2-infoInputbar-wrap {
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 15px;
+    input {
+        border: 2px solid #88b179;
+        height: 30px;
+        width: 400px;
+        border-radius: 5px;
+        outline: none;
+    }
+    select {
+        border-radius: 5px;
+    }
+}
+
+.AdoptStep2-infoInput-bar:focus {
+    border-color: #6a945b;
+    border-width: 3px;
+}
+
+.AdoptStep2-button {
+    display: flex;
+    justify-content: right;
+    padding-right: 40px;
+    column-gap: 10px;
+    margin-top: 35px;
+}
+
+// 2 cái nút next và cancel
+.btn-1 {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #7aa366;
+    border-radius: 10px;
+}
+
+.btn-1:hover {
+    background-color: #8fca72;
+}
+
+.btn-2 {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #db6060;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-2:hover {
+    background-color: #e14343;
+}
+
+select {
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+.wrap-city-job {
+    column-gap: 30px;
+    display: flex;
+}
+
+.AdoptStep2-infoInput-logo {
+    position: absolute;
+    width: 100px;
+    top: 330px;
+    left: 350px;
+}
+// // name
+.AdoptStep2-infoInputbar-wrap-name {
+    margin-bottom: 20px;
+    label {
+        margin-right: 51px;
+        font-weight: 800;
+        font-size: 23px;
+    }
+    input {
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+}
+
+// //yob
+.AdoptStep2-infoInputbar-wrap-yob {
+    margin-bottom: 20px;
+    label {
+        margin-right: 20px;
+        font-weight: 800;
+        font-size: 23px;
+    }
+    input {
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+}
+
+// //address
+.AdoptStep2-infoInputbar-wrap-address {
+    margin-bottom: 20px;
+    label {
+        margin-right: 63px;
+        font-weight: 800;
+        font-size: 23px;
+    }
+    input {
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+    input {
+        width: 600px;
+    }
+}
+
+// //city
+.AdoptStep2-infoInputbar-wrap-city {
+    margin-bottom: 20px;
+
+    label {
+        margin-right: 20px;
+        font-weight: 800;
+        font-size: 23px;
+    }
+    input {
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+    input {
+        width: 300px;
+    }
+}
+
+// //gender
+.AdoptStep2-infoInputbar-wrap-gender {
+    margin-bottom: 20px;
+    label {
+        margin-right: 75px;
+        font-weight: 800;
+        font-size: 23px;
+    }
+    select {
+        width: 400px;
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+}
+
+// //phone
+.AdoptStep2-infoInputbar-wrap-phone {
+    margin-bottom: 20px;
+    label {
+        margin-right: 85px;
+        font-weight: 800;
+        font-size: 23px;
+    }
+    input {
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+}
+
+// //job
+.AdoptStep2-infoInputbar-wrap-job {
+    margin-bottom: 20px;
+    label {
+        margin-right: 20px;
+        font-weight: 800;
+        font-size: 23px;
+    }
+    input {
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+    input {
+        width: 300px;
+    }
+}
+
+// //livewith
+.AdoptStep2-infoInputbar-wrap-livewith {
+    margin-bottom: 20px;
+    label {
+        margin-right: 20px;
+        font-weight: 800;
+        font-size: 23px;
+    }
+    input {
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+}
+
+.AdoptStep2-infoInputbar-wrap-RE1 {
+    margin-bottom: 20px;
+    label {
+        margin-right: 34px;
+        font-weight: 800;
+        font-size: 23px;
+    }
+    input {
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+}
+
+.AdoptStep2-infoInputbar-wrap_RE1Phone {
+    margin-bottom: 20px;
+    gap: 20px;
+    label {
+        margin-right: 67px;
+        font-weight: 800;
+        font-size: 23px;
+    }
+    input {
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+}
+
+.AdoptStep2-infoInputbar-wrap-RE2 {
+    margin-bottom: 20px;
+    label {
+        margin-right: 34px;
+        font-weight: 800;
+        font-size: 23px;
+    }
+    input {
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+}
+
+.AdoptStep2-infoInputbar-wrap-RE2Phone {
+    margin-bottom: 20px;
+    label {
+        margin-right: 64px;
+        font-weight: 800;
+        font-size: 23px;
+    }
+    input {
+        border-radius: 50px;
+        padding-left: 10px;
+    }
+}
+
+.AdoptStep2_3input {
+    display: flex;
+    column-gap: 80px;
+    input {
+        width: 150px;
+    }
+    label {
+        margin-right: 10px;
+    }
+}
+
+.AdoptStep2_notification {
+    text-align: center;
+    h5 {
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.error-text {
+    margin-top: 5px;
+    margin-left: 160px;
+    margin-bottom: 0px;
+    color: red;
+    font-style: italic;
+    font-weight: 350;
+}
+
+.error-text2 {
+    margin-top: 5px;
+    margin-left: 260px;
+    margin-bottom: 0px;
+    color: red;
+    font-style: italic;
+    font-weight: 350;
+}

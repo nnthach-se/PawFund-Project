@@ -1,0 +1,103 @@
+.blog-list {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: calc(3 * 250px + 2 * 20px);
+
+    .blog-box {
+        background-color: var(--background-color-grey);
+        padding: 15px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 15px;
+        margin: 0;
+        box-sizing: border-box;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: transform 0.2s ease;
+
+        .image {
+            background-color: rgb(93, 80, 80);
+            height: 200px;
+            width: 100%;
+            position: relative;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .blog-info {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .info {
+                display: flex;
+                justify-content: flex-start;
+
+                .main-info {
+                    display: flex;
+                    flex-direction: column;
+
+                    h3,
+                    p {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                    }
+                    h3 {
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 5px;
+                        text-align: left;
+                    }
+
+                    p {
+                        margin: 0;
+                        font-size: 14px;
+                        text-align: justify;
+                    }
+                }
+            }
+
+            .blog-btn {
+                margin-top: 20px;
+                display: flex;
+            }
+        }
+    }
+    .blog-box:hover {
+        transform: scale(1.04);
+    }
+    .pagination {
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+    }
+}
+
+.blog-search {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: right;
+    input {
+        border: 1px solid black;
+    }
+    select {
+        width: 150px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-right: 40px;
+    }
+}

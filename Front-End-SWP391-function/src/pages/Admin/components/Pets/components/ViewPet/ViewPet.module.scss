@@ -1,0 +1,114 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: stretch;
+    width: 100%;
+    padding: 20px;
+    margin: 40px 0;
+    margin-top: 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+    background-color: white;
+
+    .pet-info {
+        background-color: var(--third-color);
+        width: 60%;
+        padding: 10px 20px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .detail-info {
+            position: relative;
+            width: 50%;
+
+            h2{
+                display: inline-block;
+                background-color: var(--primary-color);
+                padding: 0 8px;
+                border-radius: 15px;
+                margin-bottom: 20px;
+                
+            }
+            .detail-item {
+                display: flex;
+
+                div {
+                    margin-right: 25px;
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            .adopt {
+                display: flex;
+                margin-top: 10px;
+
+                Button:first-child {
+                    margin-right: 10px;
+                }
+            }
+
+            .edit {
+                margin-top: 20px;
+                display: flex;
+
+                Button:first-child {
+                    margin-right: 10px;
+                }
+            }
+
+            .email-btn{
+                margin-top: 15px;
+            }
+
+            &::after {
+                content: '';
+                background-color: rgb(199, 199, 199);
+                width: 1px;
+                height: 85%;
+                position: absolute;
+                right: 30px;
+                top: 13%;
+            }
+        }
+
+        .story {
+            width: 50%;
+            .description-wrapper {
+                height: 280px;
+                overflow-y: auto;
+
+                &::-webkit-scrollbar {
+                    width: 6px;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background-color: transparent; // set màu scroll
+                    border-radius: 6px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background-color: transparent; // set màu cái background của scroll
+                    border-radius: 6px;
+                }
+                &::-webkit-scrollbar-thumb:horizontal {
+                    min-width: 20px;
+                }
+
+                &:hover::-webkit-scrollbar-thumb {
+                    background-color: rgba(22, 24, 35, 0.1);
+                }
+
+                .description {
+                    text-align: justify;
+                    margin-bottom: 0;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

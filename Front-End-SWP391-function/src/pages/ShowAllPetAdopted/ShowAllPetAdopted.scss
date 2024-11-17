@@ -1,0 +1,126 @@
+.showAllPet {
+    width: 100%;
+    // height: 1000px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    // margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.showAllPet_box {
+    width: 60%;
+    // height: 750px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.showAllPet_box_title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+// .showAllPet_table {
+//     width: 100%;
+//     Table {
+//         border-radius: 50px;
+//     }
+// }
+.showAllPet_table {
+    width: 100%;
+}
+
+.showAllPet_box_header {
+    height: 60px;
+    // background-color: rgb(227, 227, 227);
+    background-color: white;
+    border-bottom: 2px solid rgb(227, 227, 227);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.showAllPet_box_PetBox_wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.showAllPet_box_PetBox {
+    width: 95%;
+    // height: 600px;
+    background-color: white;
+
+    // border: 2px solid rgb(227, 227, 227);
+    border-radius: 23px;
+    // margin-top: 20px;
+    // padding-top: 50px;
+    // box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.showAllPet_box_PetBox_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    column-gap: 125px;
+    background-color: rgb(241, 241, 241);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 20px;
+    // margin-bottom: 20px;
+    p {
+        margin: 0px;
+        color: grey;
+    }
+}
+
+.petInfo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border: 1px solid rgb(241, 241, 241);
+}
+
+.petInfo_name {
+    width: 253px;
+    padding-left: 80px;
+    p {
+        margin: 0px;
+    }
+    // border: 2px solid black;
+}
+.petInfo_type {
+    width: 153px;
+    p {
+        margin: 0px;
+    }
+    // border: 2px solid black;
+}
+.petInfo_breed {
+    width: 166px;
+    p {
+        margin: 0px;
+    }
+    // border: 2px solid black;
+}
+.petInfo_color {
+    width: 147px;
+    p {
+        margin: 0px;
+    }
+    // border: 2px solid black;
+}
+.petInfo_action {
+    // border: 2px solid black;
+}
+
+.showAllPet_pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

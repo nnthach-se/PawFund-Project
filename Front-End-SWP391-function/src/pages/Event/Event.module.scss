@@ -1,0 +1,34 @@
+.banner {
+    height: 400px;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        pointer-events: none;
+    }
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 0;
+
+    .short-filter {
+        width: calc(3 * 250px + 2 * 20px);
+        margin: 20px 0;
+    }
+
+    .blog-content {
+        width: calc(3 * 250px + 2 * 20px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

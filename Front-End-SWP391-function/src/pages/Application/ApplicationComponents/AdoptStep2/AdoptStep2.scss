@@ -1,0 +1,48 @@
+.AdoptStep2 {
+    height: 1000px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.infoInput-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.AdoptStep2-infoInput {
+    height: 420px;
+    width: 60%;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.AdoptStep2-infoInput {
+    height: 35px;
+}
+
+// 2 cái nút next và cancel
+.btn-1 {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #7aa366;
+    border-radius: 10px;
+}
+
+.btn-1:hover {
+    background-color: #8fca72;
+}
+
+.btn-2 {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #db6060;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-2:hover {
+    background-color: #e14343;
+}

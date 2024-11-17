@@ -1,0 +1,63 @@
+.content {
+    width: 100%;
+    background-color: white;
+
+    .content-item {
+        padding: 0 20px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid lightgray;
+
+        p {
+            margin: 0;
+        }
+
+        .id {
+            width: 10%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .user {
+            width: 15%;
+            .fullname {
+                font-weight: 600;
+            }
+        }
+
+        .status {
+            width: 10%;
+            p {
+                background-color: var(--pass-color);
+                color: white;
+                display: inline;
+                padding: 5px;
+                border-radius: 10px;
+            }
+
+            .inprocess {
+                background-color: var(--inprocess-color);
+            }
+
+            .notpass {
+                background-color: var(--notpass-color);
+            }
+        }
+
+        .date {
+            width: 10%;
+        }
+
+        .action {
+            width: 5%;
+            text-align: center;
+            .view-icon {
+                color: rgb(99, 199, 232);
+                width: 18px;
+                cursor: pointer;
+            }
+        }
+    }
+}

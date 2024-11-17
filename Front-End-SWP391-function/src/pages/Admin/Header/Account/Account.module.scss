@@ -1,0 +1,113 @@
+.account{
+    display: flex;
+    align-items: center;
+
+    .icon-header {
+        font-size: 22px;
+        color: var(--primary-color);
+        margin-right: 8px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .username {
+        color: var(--primary-color);
+        cursor: pointer;
+        display: flex;
+        align-items: flex-start;
+        margin-left: 5px;
+
+        p {
+            margin: 0;
+            margin-right: 5px;
+            max-width: 90px;
+            overflow: hidden;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        .icon-user {
+            font-size: 18px;
+            padding-top: 2px;
+        }
+    }
+}
+
+.custom-menu{
+    max-height: 500px;
+    overflow-y: auto;
+    z-index: 20;
+    &::-webkit-scrollbar {
+        width: 10px;
+        padding-top: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: white; // set màu scroll
+        border-radius: 6px;
+        margin-top: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: white; // set màu cái background của scroll
+        border-radius: 6px;
+    }
+    &::-webkit-scrollbar-thumb:horizontal {
+        min-width: 20px;
+    }
+
+    &:hover::-webkit-scrollbar-thumb {
+        background-color: rgba(22, 24, 35, 0.1);
+    }
+
+    .noti-item {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 15px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px;
+        border-radius: 8px;
+    
+        .noti-text {
+            display: flex;
+            justify-content: space-between;
+    
+            .name {
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                -webkit-line-clamp: 2;
+                line-height: 1.2em;
+                max-height: 2.4em;
+                width: 160px;
+                margin-right: 10px;
+            }
+    
+            .view {
+                color: var(--primary-color);
+                text-decoration: underline;
+                cursor: pointer;
+            }
+    
+            .status {
+                background-color: green;
+                padding: 0 10px;
+                display: inline-block;
+                height: 30px;
+                line-height: 30px;
+                border-radius: 10px;
+                color: white;
+            }
+    
+            &:first-child {
+                margin-bottom: 10px;
+            }
+    
+            p {
+                margin-bottom: 0;
+            }
+        }
+    
+        &:hover{
+            background-color: white;
+        }
+    }
+}

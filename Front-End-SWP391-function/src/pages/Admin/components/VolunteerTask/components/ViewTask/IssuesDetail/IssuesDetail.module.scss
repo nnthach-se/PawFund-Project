@@ -1,0 +1,74 @@
+.issue-detail {
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 15px;
+
+    .issue-detail-state {
+        background-color: white;
+        padding: 2px 40px;
+        font-weight: bold;
+        border-radius: 15px;
+        display: inline-block;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px;
+    }
+    .close-issue-detail {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+
+        &:hover {
+            color: black;
+        }
+    }
+    .issue-state-info {
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px;
+        border-radius: 15px;
+        padding: 10px;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        .issue-info-wrap {
+            display: flex;
+            align-items: center;
+
+            .info-left {
+                width: 50%;
+            }
+
+            .info-right {
+                width: 50%;
+
+                .des-content {
+                    background-color: var(--second-color);
+                    height: 80px;
+                    width: 100%;
+                    border-radius: 10px;
+                    padding: 5px;
+                    font-size: 14px;
+                    overflow-y: auto;
+                }
+            }
+        }
+
+        .issue-tags {
+            margin: 10px 0;
+            margin-bottom: 0;
+            padding-bottom: 15px;
+
+            p {
+                padding: 5px 10px;
+                margin-right: 15px;
+                margin-bottom: 0;
+                border-radius: 15px;
+                color: white;
+                display: inline-block;
+                font-size: 14px;
+            }
+        }
+    }
+}

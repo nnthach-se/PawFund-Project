@@ -1,0 +1,38 @@
+.filter-menu {
+    background-color: white;
+    width: 180px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        label {
+            margin-bottom: 3px;
+        }
+
+        select {
+            margin-bottom: 15px;
+            width: 100%;
+            border-radius: 8px;
+            height: 30px;
+            outline: none;
+            border: 1px solid black;
+            padding-left: 0;
+        }
+
+        .button-all {
+            display: flex;
+
+            .submit-btn {
+                &:first-child {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

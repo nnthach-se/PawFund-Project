@@ -1,0 +1,89 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    .title {
+        margin-bottom: 0;
+    }
+
+    form {
+        background-color: white;
+        border-radius: 15px;
+        padding: 10px;
+        margin-top: 10px;
+
+        .home-check-input-wrap {
+            display: flex;
+
+            .form-rating {
+                .living-item {
+                    margin-bottom: 15px;
+                    .stars {
+                        display: flex;
+                        cursor: pointer;
+
+                        input[type='radio'] {
+                            display: none;
+                        }
+
+                        .star-icon {
+                            font-size: 20px;
+                            cursor: pointer;
+                            margin-right: 10px;
+
+                            &:active {
+                                color: gold;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .home-check-right {
+                margin-left: 50px;
+                .form-input {
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: column;
+
+                    textarea {
+                        width: 250px;
+                        height: 130px;
+                        border-radius: 15px;
+                        outline: none;
+                        padding: 8px;
+                        overflow-y: auto;
+
+                        &::-webkit-scrollbar {
+                            width: 10px;
+                            padding-top: 5px;
+                        }
+
+                        &::-webkit-scrollbar-thumb {
+                            background-color: transparent; // set màu scroll
+                            border-radius: 6px;
+                            margin-top: 10px;
+                        }
+
+                        &::-webkit-scrollbar-track {
+                            background-color: transparent; // set màu cái background của scroll
+                            border-radius: 6px;
+                        }
+                        &::-webkit-scrollbar-thumb:horizontal {
+                            min-width: 20px;
+                        }
+
+                        &:hover::-webkit-scrollbar-thumb {
+                            background-color: rgba(22, 24, 35, 0.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

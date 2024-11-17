@@ -1,0 +1,73 @@
+.donateHis {
+    width: 1087px;
+}
+
+.donateHis_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    background-color: rgb(239, 239, 239);
+    column-gap: 160px;
+    p {
+        font-size: 18px;
+        color: rgb(160, 160, 160);
+        margin: 0px;
+    }
+}
+
+.donateHis_box_each {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border-top: 2px solid rgb(223, 223, 223);
+    p {
+        font-size: 18px;
+        margin-bottom: 0;
+        // border: 1px solid black;
+    }
+    .donateHis_box_each_id {
+        margin-left: 108px;
+        width: 172px;
+    }
+    .donateHis_box_each_amount {
+        width: 228px;
+    }
+    .donateHis_box_each_bank {
+        width: 220px;
+    }
+    .donateHis_box_each_card {
+        width: 190px;
+    }
+    .donateHis_box_each_action {
+    }
+}
+
+.total_donation {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    height: 50px;
+    // width: 240px;
+    // border: 2px solid black;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    p {
+        font-size: 20px;
+        margin: 0;
+    }
+}
+
+.sort-options {
+    margin-bottom: 20px;
+    margin-left: 26px;
+    select {
+        width: 200px;
+        margin-left: 10px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+}

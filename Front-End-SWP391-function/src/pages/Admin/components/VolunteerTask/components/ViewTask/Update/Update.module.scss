@@ -1,0 +1,41 @@
+.update-content {
+    background-color: white;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 15px;
+
+    input,
+    select {
+        border-radius: 8px;
+        padding: 5px;
+        outline: none;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+
+        .input-detail {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            label {
+                margin-right: 5px;
+                width: 80px;
+            }
+            select,
+            input {
+                margin-left: 10px;
+                width: 200px;
+                border: 1px solid rgb(0, 0, 0);
+            }
+        }
+    }
+
+    .form-btn {
+        display: flex;
+        margin-top: 50px;
+    }
+}

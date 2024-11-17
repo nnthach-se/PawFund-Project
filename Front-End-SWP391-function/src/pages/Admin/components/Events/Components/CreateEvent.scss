@@ -1,0 +1,89 @@
+.create-blog-container {
+    width: 1500px;
+}
+
+.createBlog_image {
+    height: 50px;
+    padding: 0;
+    border: 0;
+    margin-top: 20px;
+    padding: 0px 5px 5px 05px;
+}
+
+.createBlog_blogTitle {
+    margin-right: 30px;
+    margin-left: 5px;
+}
+
+.createBlog_button {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.createBlog_form_input_title {
+    margin-bottom: 20px;
+    label {
+        margin-right: 60px;
+    }
+}
+.createBlog_form_input_description {
+    margin-bottom: 20px;
+    label {
+        margin-right: 10px;
+    }
+}
+.createBlog_form_input_nickname {
+    margin-bottom: 20px;
+    label {
+        margin-right: 20px;
+    }
+}
+.createBlog_form_input_tag {
+    margin-bottom: 20px;
+    label {
+        margin-right: 57px;
+    }
+}
+.createBlog_form_input_images {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    label {
+        margin-right: 10px;
+    }
+    input {
+        padding-bottom: 40px;
+        border: 0;
+    }
+}
+
+.blogCreate_btn {
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    border: 0;
+    background-color: rgb(111, 168, 111);
+    color: white;
+}
+
+.createBlog_form_input_content {
+    width: 1110px;
+}
+
+.nut-add-tag {
+    button {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        height: 100%;
+        width: 100px;
+        border-radius: 8px;
+        background-color: #7aa366;
+        border: 0px;
+        color: white;
+        font-weight: 800;
+    }
+}

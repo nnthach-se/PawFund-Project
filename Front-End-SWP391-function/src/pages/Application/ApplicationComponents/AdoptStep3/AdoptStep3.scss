@@ -1,0 +1,140 @@
+.AdoptStep3 {
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.AdopStep3-board {
+    height: 480px;
+    width: 60%;
+    background-color: #eff8eb;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.AdoptStep3-first2-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.AdoptStep3-first2 {
+    display: grid;
+    place-items: center;
+    padding-top: 20px;
+    row-gap: 30px;
+}
+
+.meet_greet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    background-color: #6a945b;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.your-profile {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+    width: 700px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+}
+
+.aftermeet {
+    position: absolute;
+    left: 978px;
+    bottom: 10px;
+    text-align: center;
+    height: 70px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.AdoptStep3-button {
+    display: flex;
+    justify-content: right;
+    padding-right: 40px;
+    padding-top: 100px;
+    column-gap: 10px;
+}
+
+.btn-1 {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #7aa366;
+    border-radius: 10px;
+}
+
+.btn-1:hover {
+    background-color: #8fca72;
+}
+
+.btn-2 {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #db6060;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-2:hover {
+    background-color: #e14343;
+}
+
+.popupStep3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; // Đặt cao để hiển thị trên các thành phần khác
+}
+
+.popupStep3-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 500px;
+}
+
+.popupStep3-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    Button {
+        width: 100px;
+    }
+}
+
+.popupStep3-content-wrap {
+    img {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+}

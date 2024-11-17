@@ -1,0 +1,62 @@
+.wrapper{
+    background-color: white     ;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+    p{          
+        color: black;
+    }
+    a{
+        margin-top: 10px;
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+
+    h3{
+        font-size: 18px;
+        font-weight: 600;
+        color: black;
+    }
+    
+    .first{
+        text-align: center;
+        p{
+            margin: 0;
+        }
+
+        img{
+            width: 100px;
+        }
+
+        .first-icon{
+            margin: 10px 0;
+            
+            img{
+                width: 25px;
+                margin: 0 5px;
+            }
+        }
+    }
+
+    .third{
+        .link{
+            display: flex;
+            
+            .para1{
+                margin-right: 40px;
+            }
+        }
+    }
+
+    .four{
+        p{
+            width: 350px;
+            margin: 0;
+            font-size: 12px;
+        }
+    }
+}

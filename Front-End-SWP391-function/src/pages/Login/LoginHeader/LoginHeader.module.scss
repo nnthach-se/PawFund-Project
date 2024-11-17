@@ -1,0 +1,24 @@
+.login-choice{
+    width: 100%;
+
+    button{
+        width: 50%;
+        border: none;
+        border: 2px solid transparent;
+        padding: 10px 0;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: rgb(196, 196, 196);
+        color: gray;
+        
+
+        &:hover{
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        &.active{
+            background-color: white;
+            color: var(--primary-color);
+        }
+    }
+}

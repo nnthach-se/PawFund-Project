@@ -1,0 +1,103 @@
+.adoptStep2_waiting {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.adoptStep2_waiting_container {
+    width: 60%;
+    height: 300px;
+    background-color: #eff8eb;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adoptStep2_waiting_container_content {
+    width: 60%;
+    height: 100px;
+    background-color: #6a945b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    p {
+        margin: 0px;
+        color: white;
+        font-size: 23px;
+    }
+}
+
+.adoptstep2wait_box {
+    width: 920px;
+    // height: 700px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #eff8eb;
+    border-radius: 10px;
+    // padding-top: 20px;
+    // padding-left: 50px;
+    // padding-bottom: 30px;
+    padding: 40px;
+    // padding-top: 20px;
+}
+
+.adoptstep2wait_box_content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    strong {
+        color: black;
+        font-size: 23px;
+        margin-right: 5px;
+    }
+    p {
+        color: #303030;
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .applicationDetail_box_content_name_phone {
+        display: flex;
+        .applicationDetail_box_content_name {
+            width: 400px;
+        }
+    }
+    .applicationDetail_box_content_yob_gender {
+        display: flex;
+        column-gap: 350px;
+    }
+}
+
+.adoptstep2wait_box_header {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.adoptStep2_box_content_yob_gender {
+    display: flex;
+    .adoptStep2_gender {
+        width: 400px;
+    }
+}
+
+.adoptStep2Wait_3input {
+    display: flex;
+    justify-content: center;
+    p {
+        margin-right: 80px;
+    }
+}
+
+.adoptStep2Wait_3input_to {
+    margin: 0;
+}
+
+.AdoptStep2Wait_line {
+    width: 600px;
+    border-bottom: 2px solid black;
+    margin-left: 90px;
+}

@@ -1,0 +1,158 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    .login-img {
+        width: 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .login-form {
+        background-color: var(--primary-color);
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .wrapper {
+            width: 380px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            overflow: hidden;
+
+            .login-choice{
+                button{
+                    width: 200px;
+                    border: none;
+                    border: 2px solid transparent;
+                    padding: 10px 0;
+                    font-size: 20px;
+                    font-weight: 600;
+                    background-color: rgb(196, 196, 196);
+                    color: gray;
+
+                    &:hover{
+                        border-bottom: 2px solid var(--primary-color);
+                    }
+
+                    &.active{
+                        background-color: white;
+                        color: var(--primary-color);
+                    }
+                }
+            }
+
+            img{
+                width: 80px;
+                margin: 20px 0 ;
+            }
+
+            .form{
+                width: 300px;
+
+                .ggpw-msg{
+                    color: var(--primary-color);
+                    text-align: center;
+                }
+
+                .form-item{
+                    .input {
+                        border-color: var(--primary-color); 
+    
+                        &:focus {
+                            box-shadow: 0 0 3px var(--primary-color); 
+                        }
+    
+                        &::placeholder{
+                            color: rgb(18, 89, 0);
+                        }
+                    }
+                    
+                }
+                .mgbt{
+                    margin-bottom: 35px;
+                }
+
+                .small-function{
+                    margin-top: -30px;
+                    font-size: 12px;
+                    a{
+                        text-decoration: underline;
+                        color: var(--primary-color);
+                    }
+                }         
+
+                .regis-msg{
+                    color: var(--primary-color);
+                    font-style: italic;
+                    display: block;
+                    text-align: center;
+                    margin-bottom: 5px;
+                }
+
+                .red-text{
+                    color: red;
+                }
+            }
+            .submit-btn {
+                display: flex;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                text-align: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .popup-fgpw{
+        background-color: rgba(0,0,0,0.8);
+        width: 50%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .popup-content{
+            width: 380px;
+            background-color: white;
+            border-radius: 20px;
+            text-align: center;
+            padding: 20px;
+
+            h2{
+                margin-bottom: 15px;
+                color: var(--primary-color);
+            }
+
+            .form-enter-mail{
+                .wrap-btn{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: -5px;
+                }
+            }
+        }
+
+        .close-popup{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}

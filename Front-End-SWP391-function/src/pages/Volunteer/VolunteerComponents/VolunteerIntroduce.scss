@@ -1,0 +1,119 @@
+// Điều chỉnh nền
+.adoptIntro {
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+    // height: 1000px;
+    width: 100%;
+    background-color: #f5f6fa;
+}
+
+// Điều chỉnh khung bao bọc content
+.volunteer_container {
+    justify-content: center;
+    height: 1900px;
+    width: 75%;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+// Header của container
+.volunteer_container_header {
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 19px;
+    h3 {
+        padding-bottom: 10px;
+        font-size: 40px;
+        color: #7aa366;
+    }
+}
+
+// Cái nút Start The Process
+.volunteer_container_button {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    Button {
+        transition: transform 0.3s ease;
+    }
+    Button:hover {
+        transform: scale(1.1);
+    }
+}
+
+// Đoạn 1
+.volunteer_container_firstPara {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+    column-gap: 50px;
+}
+
+.volunteer_container_firstPara_image {
+    height: 350px;
+    width: 420px;
+}
+
+.volunteer_container_firstPara_content {
+    padding-top: 50px;
+    text-align: center;
+    h3 {
+        color: #7aa366;
+        padding-bottom: 20px;
+    }
+}
+
+// Đoạn 2
+.volunteer_container_secondPara {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+    column-gap: 50px;
+}
+
+.volunteer_container_secondPara_image {
+    height: 350px;
+    width: 420px;
+}
+
+.volunteer_container_secondPara_content {
+    padding-top: 50px;
+    text-align: center;
+    h3 {
+        color: #7aa366;
+        padding-bottom: 20px;
+    }
+}
+
+// Đoạn 3
+.volunteer_container_thirdPara {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+    column-gap: 50px;
+}
+
+.volunteer_container_thirdPara_image {
+    height: 350px;
+    width: 420px;
+}
+
+.volunteer_container_thirdPara_content {
+    padding-top: 50px;
+    text-align: center;
+    h3 {
+        color: #7aa366;
+        padding-bottom: 20px;
+    }
+}

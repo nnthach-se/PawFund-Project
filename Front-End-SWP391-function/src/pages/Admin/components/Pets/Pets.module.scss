@@ -1,0 +1,172 @@
+.wrapper {
+    width: 100%;
+    margin: 40px 0;
+    margin-top: 0;
+
+    h1 {
+        margin-bottom: 40px;
+        color: var(--primary-color);
+    }
+
+    .user-sum {
+        display: flex;
+        justify-content: flex-start;
+
+        .user-sum-item {
+            background-color: white;
+            width: 250px;
+            height: 74px;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                font-size: 18px;
+                margin: 0;
+
+                &:first-child {
+                    font-weight: bold;
+                }
+                &:last-child {
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+
+            span {
+                background-color: rgb(142, 223, 142, 0.6);
+                width: 70px;
+                height: 25px;
+                text-align: center;
+                font-size: 14px;
+                line-height: 25px;
+                border-radius: 10px;
+            }
+
+            &:nth-child(2) {
+                margin: 0 60px;
+            }
+        }
+    }
+
+    .user-content {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+        background-color: white;
+        overflow: hidden;
+        border-radius: 15px;
+        width: 100%;
+        margin-top: 20px;
+
+        .header {
+            width: 100%;
+            height: 70px;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid lightgray;
+            .sort {
+                display: flex;
+                background-color: #f6f6f6;
+                padding: 2px;
+                border-radius: 5px;
+
+                p {
+                    margin: 0;
+                    width: 75px;
+                    text-align: center;
+                    padding: 5px 2px;
+                    color: #b6b6b6;
+                    cursor: pointer;
+                    margin-right: 5px;
+                    border-radius: 5px;
+                }
+                .active {
+                    background-color: white;
+                    color: black;
+                }
+            }
+
+            .add-pet {
+                margin-right: auto;
+                margin-left: 10px;
+                width: 400px;
+                display: flex;
+                gap: 10px;
+                Button {
+                    width: 100px;
+                }
+                .importExcel {
+                    // padding: 10px;
+                    height: 37px;
+                    width: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 7px;
+                    background-color: #f8c851;
+                }
+            }
+        }
+
+        .main-content {
+            padding: 20px;
+            width: 100%;
+
+            .content-wrapper {
+                width: 100%;
+                border: 1px solid lightgray;
+
+                .header-content {
+                    width: 100%;
+                    height: 50px;
+                    padding: 20px;
+                    background-color: #f6f6f6;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    p {
+                        margin: 0;
+                        color: rgb(140, 140, 140);
+                    }
+
+                    .id {
+                        width: 10%;
+                    }
+
+                    .image{
+                        width: 10%;
+                    }
+
+                    .name {
+                        width: 10%;
+                    }
+
+                    .role {
+                        width: 10%;
+                    }
+
+                    .appli {
+                        width: 100px;
+                    }
+
+                    .date {
+                        width: 10%;
+                    }
+                    .action {
+                        width: 5%;
+                    }
+                }
+            }
+
+            .pagination {
+                margin-top: 20px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}

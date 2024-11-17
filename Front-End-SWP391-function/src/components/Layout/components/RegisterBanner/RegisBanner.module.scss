@@ -1,0 +1,22 @@
+.wrapper {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 30px 80px;
+
+    .content {
+        width: 820px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .text {
+            margin-right: 100px;
+
+            p {
+                opacity: 0.8;
+                margin: 0;
+            }
+        }
+    }
+}
